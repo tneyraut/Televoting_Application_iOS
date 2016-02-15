@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8049BB41B430F8D00F07EB5 /* ResultatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E8049BB31B430F8D00F07EB5 /* ResultatModel.m */; };
+		E812C0861B4445A000A96190 /* SpecificTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E812C0851B4445A000A96190 /* SpecificTableViewCell.m */; };
+		E823D43E1B42EC04005A4F84 /* ListeQuestionnairesResultatTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E823D43D1B42EC04005A4F84 /* ListeQuestionnairesResultatTableViewController.m */; };
+		E823D4411B42F01A005A4F84 /* ResultatQuestionnaireTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E823D4401B42F01A005A4F84 /* ResultatQuestionnaireTableViewController.m */; };
+		E828CC581B6520D100B5281B /* question_eleve.m in Sources */ = {isa = PBXBuildFile; fileRef = E828CC571B6520D100B5281B /* question_eleve.m */; };
+		E828CC5B1B65215B00B5281B /* reponse_question_eleve.m in Sources */ = {isa = PBXBuildFile; fileRef = E828CC5A1B65215B00B5281B /* reponse_question_eleve.m */; };
+		E828CC5F1B6522FE00B5281B /* QuestionEleveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E828CC5E1B6522FE00B5281B /* QuestionEleveModel.m */; };
+		E828CC621B6526F300B5281B /* ListeQuestionsEleveView.m in Sources */ = {isa = PBXBuildFile; fileRef = E828CC611B6526F300B5281B /* ListeQuestionsEleveView.m */; };
+		E83977DA1B319F6E000F0F3F /* ListeReponsesView.m in Sources */ = {isa = PBXBuildFile; fileRef = E83977D91B319F6E000F0F3F /* ListeReponsesView.m */; };
+		E83977DD1B31A0D7000F0F3F /* QuestionsReponsesView.m in Sources */ = {isa = PBXBuildFile; fileRef = E83977DC1B31A0D7000F0F3F /* QuestionsReponsesView.m */; };
+		E843D2471B491FDE00C19B64 /* ApercuQuestionnaireModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E843D2461B491FDE00C19B64 /* ApercuQuestionnaireModel.m */; };
+		E843D24A1B4921CC00C19B64 /* GroupeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E843D2491B4921CC00C19B64 /* GroupeModel.m */; };
+		E843D24D1B497E1400C19B64 /* ProfListeQuestionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E843D24C1B497E1400C19B64 /* ProfListeQuestionsTableViewController.m */; };
+		E843D2501B49849500C19B64 /* ProfListeReponsesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E843D24F1B49849500C19B64 /* ProfListeReponsesTableViewController.m */; };
+		E84B058C1B47E1000047570A /* ProfVisualisationQuestionnaireTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E84B058B1B47E1000047570A /* ProfVisualisationQuestionnaireTableViewController.m */; };
+		E859B1A01B666B5D003F4266 /* ListeReponsesQuestionEleveView.m in Sources */ = {isa = PBXBuildFile; fileRef = E859B19F1B666B5D003F4266 /* ListeReponsesQuestionEleveView.m */; };
+		E865AB791B4ADCE9006DB75A /* ProfListeElevesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E865AB781B4ADCE9006DB75A /* ProfListeElevesTableViewController.m */; };
+		E866F4CD1B50045C003E51D0 /* ProfStatistiquesParticipantsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E866F4CC1B50045C003E51D0 /* ProfStatistiquesParticipantsTableViewController.m */; };
+		E866F4D01B5004D6003E51D0 /* ProfStatistiquesQuestionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E866F4CF1B5004D6003E51D0 /* ProfStatistiquesQuestionsTableViewController.m */; };
+		E866F4D31B500DD0003E51D0 /* ProfStatistiquesQuestionReponsesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E866F4D21B500DD0003E51D0 /* ProfStatistiquesQuestionReponsesTableViewController.m */; };
+		E889143E1B53FA5B00D9AA53 /* StatistiquesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E889143D1B53FA5B00D9AA53 /* StatistiquesModel.m */; };
+		E89BF8F21B6379A800109251 /* Absence.m in Sources */ = {isa = PBXBuildFile; fileRef = E89BF8F11B6379A800109251 /* Absence.m */; };
+		E89BF8F51B637A1100109251 /* Retard.m in Sources */ = {isa = PBXBuildFile; fileRef = E89BF8F41B637A1100109251 /* Retard.m */; };
+		E89BF8F81B637A6E00109251 /* AbsenceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E89BF8F71B637A6E00109251 /* AbsenceModel.m */; };
+		E89BF8FB1B637D1B00109251 /* RetardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E89BF8FA1B637D1B00109251 /* RetardModel.m */; };
+		E8B6D0EE1B482F8B00C62CB3 /* Groupe.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B6D0ED1B482F8B00C62CB3 /* Groupe.m */; };
+		E8B6D0F11B4830A800C62CB3 /* DataQuestionnaireModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B6D0F01B4830A800C62CB3 /* DataQuestionnaireModel.m */; };
+		E8D078231B46E78400918140 /* ProfDonneesGeneralesQuestionnaireTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D078221B46E78400918140 /* ProfDonneesGeneralesQuestionnaireTableViewController.m */; };
+		E8D980DB1B2F011800806835 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D980DA1B2F011800806835 /* main.m */; };
+		E8D980DE1B2F011800806835 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D980DD1B2F011800806835 /* AppDelegate.m */; };
+		E8D980E11B2F011800806835 /* Televoting.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8D980DF1B2F011800806835 /* Televoting.xcdatamodeld */; };
+		E8D980E71B2F011800806835 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D980E51B2F011800806835 /* Main.storyboard */; };
+		E8D980E91B2F011800806835 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D980E81B2F011800806835 /* Images.xcassets */; };
+		E8D980EC1B2F011800806835 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8D980EA1B2F011800806835 /* LaunchScreen.xib */; };
+		E8D980F81B2F011800806835 /* TelevotingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D980F71B2F011800806835 /* TelevotingTests.m */; };
+		E8D9814E1B2F09C200806835 /* Cours.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D981411B2F09C200806835 /* Cours.m */; };
+		E8D9814F1B2F09C200806835 /* Participant.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D981431B2F09C200806835 /* Participant.m */; };
+		E8D981501B2F09C200806835 /* PropositionReponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D981451B2F09C200806835 /* PropositionReponse.m */; };
+		E8D981511B2F09C200806835 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D981471B2F09C200806835 /* Question.m */; };
+		E8D981521B2F09C200806835 /* Questionnaire.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D981491B2F09C200806835 /* Questionnaire.m */; };
+		E8D981531B2F09C200806835 /* Reponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D9814B1B2F09C200806835 /* Reponse.m */; };
+		E8D981541B2F09C200806835 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D9814D1B2F09C200806835 /* User.m */; };
+		E8D981661B2F0A1B00806835 /* CoursModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D981591B2F0A1B00806835 /* CoursModel.m */; };
+		E8D981671B2F0A1B00806835 /* ParticipantModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D9815B1B2F0A1B00806835 /* ParticipantModel.m */; };
+		E8D981681B2F0A1B00806835 /* PropositionReponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D9815D1B2F0A1B00806835 /* PropositionReponseModel.m */; };
+		E8D981691B2F0A1B00806835 /* QuestionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D9815F1B2F0A1B00806835 /* QuestionModel.m */; };
+		E8D9816A1B2F0A1B00806835 /* QuestionnaireModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D981611B2F0A1B00806835 /* QuestionnaireModel.m */; };
+		E8D9816B1B2F0A1B00806835 /* ReponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D981631B2F0A1B00806835 /* ReponseModel.m */; };
+		E8D9816C1B2F0A1B00806835 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D981651B2F0A1B00806835 /* UserModel.m */; };
+		E8D981791B2F0A3700806835 /* IdentificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D9816E1B2F0A3700806835 /* IdentificationView.m */; };
+		E8D9817A1B2F0A3700806835 /* ListeCoursView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D981701B2F0A3700806835 /* ListeCoursView.m */; };
+		E8D9817B1B2F0A3700806835 /* ListeQuestionnairesView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D981721B2F0A3700806835 /* ListeQuestionnairesView.m */; };
+		E8D9817C1B2F0A3700806835 /* ListeQuestionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D981741B2F0A3700806835 /* ListeQuestionsView.m */; };
+		E8FF6ACE1B45975A00FA9B7E /* ProfListeQuestionnairesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FF6ACD1B45975A00FA9B7E /* ProfListeQuestionnairesTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8D980F21B2F011800806835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8D980CD1B2F011800806835 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8D980D41B2F011800806835;
+			remoteInfo = Televoting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E8049BB21B430F8D00F07EB5 /* ResultatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultatModel.h; path = Model/ResultatModel.h; sourceTree = "<group>"; };
+		E8049BB31B430F8D00F07EB5 /* ResultatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultatModel.m; path = Model/ResultatModel.m; sourceTree = "<group>"; };
+		E812C0841B4445A000A96190 /* SpecificTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpecificTableViewCell.h; path = Class/SpecificTableViewCell.h; sourceTree = "<group>"; };
+		E812C0851B4445A000A96190 /* SpecificTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpecificTableViewCell.m; path = Class/SpecificTableViewCell.m; sourceTree = "<group>"; };
+		E823D43C1B42EC04005A4F84 /* ListeQuestionnairesResultatTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListeQuestionnairesResultatTableViewController.h; path = "View Controller/ListeQuestionnairesResultatTableViewController.h"; sourceTree = "<group>"; };
+		E823D43D1B42EC04005A4F84 /* ListeQuestionnairesResultatTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListeQuestionnairesResultatTableViewController.m; path = "View Controller/ListeQuestionnairesResultatTableViewController.m"; sourceTree = "<group>"; };
+		E823D43F1B42F01A005A4F84 /* ResultatQuestionnaireTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultatQuestionnaireTableViewController.h; path = "View Controller/ResultatQuestionnaireTableViewController.h"; sourceTree = "<group>"; };
+		E823D4401B42F01A005A4F84 /* ResultatQuestionnaireTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultatQuestionnaireTableViewController.m; path = "View Controller/ResultatQuestionnaireTableViewController.m"; sourceTree = "<group>"; };
+		E828CC561B6520D100B5281B /* question_eleve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = question_eleve.h; path = "Class base de données/question_eleve.h"; sourceTree = "<group>"; };
+		E828CC571B6520D100B5281B /* question_eleve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = question_eleve.m; path = "Class base de données/question_eleve.m"; sourceTree = "<group>"; };
+		E828CC591B65215B00B5281B /* reponse_question_eleve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = reponse_question_eleve.h; path = "Class base de données/reponse_question_eleve.h"; sourceTree = "<group>"; };
+		E828CC5A1B65215B00B5281B /* reponse_question_eleve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = reponse_question_eleve.m; path = "Class base de données/reponse_question_eleve.m"; sourceTree = "<group>"; };
+		E828CC5D1B6522FE00B5281B /* QuestionEleveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuestionEleveModel.h; path = Model/QuestionEleveModel.h; sourceTree = "<group>"; };
+		E828CC5E1B6522FE00B5281B /* QuestionEleveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuestionEleveModel.m; path = Model/QuestionEleveModel.m; sourceTree = "<group>"; };
+		E828CC601B6526F300B5281B /* ListeQuestionsEleveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListeQuestionsEleveView.h; path = "View Controller/View Controller Question Reponse Eleve/ListeQuestionsEleveView.h"; sourceTree = "<group>"; };
+		E828CC611B6526F300B5281B /* ListeQuestionsEleveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListeQuestionsEleveView.m; path = "View Controller/View Controller Question Reponse Eleve/ListeQuestionsEleveView.m"; sourceTree = "<group>"; };
+		E83977D81B319F6E000F0F3F /* ListeReponsesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListeReponsesView.h; path = "View Controller/ListeReponsesView.h"; sourceTree = "<group>"; };
+		E83977D91B319F6E000F0F3F /* ListeReponsesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListeReponsesView.m; path = "View Controller/ListeReponsesView.m"; sourceTree = "<group>"; };
+		E83977DB1B31A0D7000F0F3F /* QuestionsReponsesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuestionsReponsesView.h; path = "View Controller/QuestionsReponsesView.h"; sourceTree = "<group>"; };
+		E83977DC1B31A0D7000F0F3F /* QuestionsReponsesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuestionsReponsesView.m; path = "View Controller/QuestionsReponsesView.m"; sourceTree = "<group>"; };
+		E843D2451B491FDE00C19B64 /* ApercuQuestionnaireModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApercuQuestionnaireModel.h; path = Model/ApercuQuestionnaireModel.h; sourceTree = "<group>"; };
+		E843D2461B491FDE00C19B64 /* ApercuQuestionnaireModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApercuQuestionnaireModel.m; path = Model/ApercuQuestionnaireModel.m; sourceTree = "<group>"; };
+		E843D2481B4921CB00C19B64 /* GroupeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupeModel.h; path = Model/GroupeModel.h; sourceTree = "<group>"; };
+		E843D2491B4921CC00C19B64 /* GroupeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroupeModel.m; path = Model/GroupeModel.m; sourceTree = "<group>"; };
+		E843D24B1B497E1400C19B64 /* ProfListeQuestionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfListeQuestionsTableViewController.h; path = "View Controller/Prof View Controller/ProfListeQuestionsTableViewController.h"; sourceTree = "<group>"; };
+		E843D24C1B497E1400C19B64 /* ProfListeQuestionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfListeQuestionsTableViewController.m; path = "View Controller/Prof View Controller/ProfListeQuestionsTableViewController.m"; sourceTree = "<group>"; };
+		E843D24E1B49849500C19B64 /* ProfListeReponsesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfListeReponsesTableViewController.h; path = "View Controller/Prof View Controller/ProfListeReponsesTableViewController.h"; sourceTree = "<group>"; };
+		E843D24F1B49849500C19B64 /* ProfListeReponsesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfListeReponsesTableViewController.m; path = "View Controller/Prof View Controller/ProfListeReponsesTableViewController.m"; sourceTree = "<group>"; };
+		E84B058A1B47E1000047570A /* ProfVisualisationQuestionnaireTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfVisualisationQuestionnaireTableViewController.h; path = "View Controller/Prof View Controller/ProfVisualisationQuestionnaireTableViewController.h"; sourceTree = "<group>"; };
+		E84B058B1B47E1000047570A /* ProfVisualisationQuestionnaireTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfVisualisationQuestionnaireTableViewController.m; path = "View Controller/Prof View Controller/ProfVisualisationQuestionnaireTableViewController.m"; sourceTree = "<group>"; };
+		E859B19E1B666B5D003F4266 /* ListeReponsesQuestionEleveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListeReponsesQuestionEleveView.h; path = "View Controller/View Controller Question Reponse Eleve/ListeReponsesQuestionEleveView.h"; sourceTree = "<group>"; };
+		E859B19F1B666B5D003F4266 /* ListeReponsesQuestionEleveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListeReponsesQuestionEleveView.m; path = "View Controller/View Controller Question Reponse Eleve/ListeReponsesQuestionEleveView.m"; sourceTree = "<group>"; };
+		E865AB771B4ADCE9006DB75A /* ProfListeElevesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfListeElevesTableViewController.h; path = "View Controller/Prof View Controller/ProfListeElevesTableViewController.h"; sourceTree = "<group>"; };
+		E865AB781B4ADCE9006DB75A /* ProfListeElevesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfListeElevesTableViewController.m; path = "View Controller/Prof View Controller/ProfListeElevesTableViewController.m"; sourceTree = "<group>"; };
+		E866F4CB1B50045C003E51D0 /* ProfStatistiquesParticipantsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfStatistiquesParticipantsTableViewController.h; path = "View Controller/Prof View Controller/ProfStatistiquesParticipantsTableViewController.h"; sourceTree = "<group>"; };
+		E866F4CC1B50045C003E51D0 /* ProfStatistiquesParticipantsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfStatistiquesParticipantsTableViewController.m; path = "View Controller/Prof View Controller/ProfStatistiquesParticipantsTableViewController.m"; sourceTree = "<group>"; };
+		E866F4CE1B5004D6003E51D0 /* ProfStatistiquesQuestionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfStatistiquesQuestionsTableViewController.h; path = "View Controller/Prof View Controller/ProfStatistiquesQuestionsTableViewController.h"; sourceTree = "<group>"; };
+		E866F4CF1B5004D6003E51D0 /* ProfStatistiquesQuestionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfStatistiquesQuestionsTableViewController.m; path = "View Controller/Prof View Controller/ProfStatistiquesQuestionsTableViewController.m"; sourceTree = "<group>"; };
+		E866F4D11B500DD0003E51D0 /* ProfStatistiquesQuestionReponsesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfStatistiquesQuestionReponsesTableViewController.h; path = "View Controller/Prof View Controller/ProfStatistiquesQuestionReponsesTableViewController.h"; sourceTree = "<group>"; };
+		E866F4D21B500DD0003E51D0 /* ProfStatistiquesQuestionReponsesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfStatistiquesQuestionReponsesTableViewController.m; path = "View Controller/Prof View Controller/ProfStatistiquesQuestionReponsesTableViewController.m"; sourceTree = "<group>"; };
+		E889143C1B53FA5B00D9AA53 /* StatistiquesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatistiquesModel.h; path = Model/StatistiquesModel.h; sourceTree = "<group>"; };
+		E889143D1B53FA5B00D9AA53 /* StatistiquesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatistiquesModel.m; path = Model/StatistiquesModel.m; sourceTree = "<group>"; };
+		E89BF8F01B6379A800109251 /* Absence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Absence.h; path = "Class base de données/Absence.h"; sourceTree = "<group>"; };
+		E89BF8F11B6379A800109251 /* Absence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Absence.m; path = "Class base de données/Absence.m"; sourceTree = "<group>"; };
+		E89BF8F31B637A1100109251 /* Retard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Retard.h; path = "Class base de données/Retard.h"; sourceTree = "<group>"; };
+		E89BF8F41B637A1100109251 /* Retard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Retard.m; path = "Class base de données/Retard.m"; sourceTree = "<group>"; };
+		E89BF8F61B637A6E00109251 /* AbsenceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbsenceModel.h; path = Model/AbsenceModel.h; sourceTree = "<group>"; };
+		E89BF8F71B637A6E00109251 /* AbsenceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbsenceModel.m; path = Model/AbsenceModel.m; sourceTree = "<group>"; };
+		E89BF8F91B637D1B00109251 /* RetardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RetardModel.h; path = Model/RetardModel.h; sourceTree = "<group>"; };
+		E89BF8FA1B637D1B00109251 /* RetardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RetardModel.m; path = Model/RetardModel.m; sourceTree = "<group>"; };
+		E8B6D0EC1B482F8B00C62CB3 /* Groupe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Groupe.h; path = "Class base de données/Groupe.h"; sourceTree = "<group>"; };
+		E8B6D0ED1B482F8B00C62CB3 /* Groupe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Groupe.m; path = "Class base de données/Groupe.m"; sourceTree = "<group>"; };
+		E8B6D0EF1B4830A800C62CB3 /* DataQuestionnaireModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataQuestionnaireModel.h; path = Model/DataQuestionnaireModel.h; sourceTree = "<group>"; };
+		E8B6D0F01B4830A800C62CB3 /* DataQuestionnaireModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataQuestionnaireModel.m; path = Model/DataQuestionnaireModel.m; sourceTree = "<group>"; };
+		E8D078211B46E78400918140 /* ProfDonneesGeneralesQuestionnaireTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfDonneesGeneralesQuestionnaireTableViewController.h; path = "View Controller/Prof View Controller/ProfDonneesGeneralesQuestionnaireTableViewController.h"; sourceTree = "<group>"; };
+		E8D078221B46E78400918140 /* ProfDonneesGeneralesQuestionnaireTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfDonneesGeneralesQuestionnaireTableViewController.m; path = "View Controller/Prof View Controller/ProfDonneesGeneralesQuestionnaireTableViewController.m"; sourceTree = "<group>"; };
+		E8D980D51B2F011800806835 /* Televoting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Televoting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D980D91B2F011800806835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8D980DA1B2F011800806835 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8D980DC1B2F011800806835 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8D980DD1B2F011800806835 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8D980E01B2F011800806835 /* Televoting.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Televoting.xcdatamodel; sourceTree = "<group>"; };
+		E8D980E61B2F011800806835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8D980E81B2F011800806835 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E8D980EB1B2F011800806835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E8D980F11B2F011800806835 /* TelevotingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelevotingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D980F61B2F011800806835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8D980F71B2F011800806835 /* TelevotingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TelevotingTests.m; sourceTree = "<group>"; };
+		E8D981401B2F09C200806835 /* Cours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cours.h; path = "Class base de données/Cours.h"; sourceTree = "<group>"; };
+		E8D981411B2F09C200806835 /* Cours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cours.m; path = "Class base de données/Cours.m"; sourceTree = "<group>"; };
+		E8D981421B2F09C200806835 /* Participant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Participant.h; path = "Class base de données/Participant.h"; sourceTree = "<group>"; };
+		E8D981431B2F09C200806835 /* Participant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Participant.m; path = "Class base de données/Participant.m"; sourceTree = "<group>"; };
+		E8D981441B2F09C200806835 /* PropositionReponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PropositionReponse.h; path = "Class base de données/PropositionReponse.h"; sourceTree = "<group>"; };
+		E8D981451B2F09C200806835 /* PropositionReponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PropositionReponse.m; path = "Class base de données/PropositionReponse.m"; sourceTree = "<group>"; };
+		E8D981461B2F09C200806835 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Question.h; path = "Class base de données/Question.h"; sourceTree = "<group>"; };
+		E8D981471B2F09C200806835 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Question.m; path = "Class base de données/Question.m"; sourceTree = "<group>"; };
+		E8D981481B2F09C200806835 /* Questionnaire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Questionnaire.h; path = "Class base de données/Questionnaire.h"; sourceTree = "<group>"; };
+		E8D981491B2F09C200806835 /* Questionnaire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Questionnaire.m; path = "Class base de données/Questionnaire.m"; sourceTree = "<group>"; };
+		E8D9814A1B2F09C200806835 /* Reponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reponse.h; path = "Class base de données/Reponse.h"; sourceTree = "<group>"; };
+		E8D9814B1B2F09C200806835 /* Reponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reponse.m; path = "Class base de données/Reponse.m"; sourceTree = "<group>"; };
+		E8D9814C1B2F09C200806835 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = "Class base de données/User.h"; sourceTree = "<group>"; };
+		E8D9814D1B2F09C200806835 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = "Class base de données/User.m"; sourceTree = "<group>"; };
+		E8D981581B2F0A1B00806835 /* CoursModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoursModel.h; path = Model/CoursModel.h; sourceTree = "<group>"; };
+		E8D981591B2F0A1B00806835 /* CoursModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoursModel.m; path = Model/CoursModel.m; sourceTree = "<group>"; };
+		E8D9815A1B2F0A1B00806835 /* ParticipantModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParticipantModel.h; path = Model/ParticipantModel.h; sourceTree = "<group>"; };
+		E8D9815B1B2F0A1B00806835 /* ParticipantModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParticipantModel.m; path = Model/ParticipantModel.m; sourceTree = "<group>"; };
+		E8D9815C1B2F0A1B00806835 /* PropositionReponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PropositionReponseModel.h; path = Model/PropositionReponseModel.h; sourceTree = "<group>"; };
+		E8D9815D1B2F0A1B00806835 /* PropositionReponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PropositionReponseModel.m; path = Model/PropositionReponseModel.m; sourceTree = "<group>"; };
+		E8D9815E1B2F0A1B00806835 /* QuestionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuestionModel.h; path = Model/QuestionModel.h; sourceTree = "<group>"; };
+		E8D9815F1B2F0A1B00806835 /* QuestionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuestionModel.m; path = Model/QuestionModel.m; sourceTree = "<group>"; };
+		E8D981601B2F0A1B00806835 /* QuestionnaireModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuestionnaireModel.h; path = Model/QuestionnaireModel.h; sourceTree = "<group>"; };
+		E8D981611B2F0A1B00806835 /* QuestionnaireModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuestionnaireModel.m; path = Model/QuestionnaireModel.m; sourceTree = "<group>"; };
+		E8D981621B2F0A1B00806835 /* ReponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReponseModel.h; path = Model/ReponseModel.h; sourceTree = "<group>"; };
+		E8D981631B2F0A1B00806835 /* ReponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReponseModel.m; path = Model/ReponseModel.m; sourceTree = "<group>"; };
+		E8D981641B2F0A1B00806835 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserModel.h; path = Model/UserModel.h; sourceTree = "<group>"; };
+		E8D981651B2F0A1B00806835 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserModel.m; path = Model/UserModel.m; sourceTree = "<group>"; };
+		E8D9816D1B2F0A3700806835 /* IdentificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IdentificationView.h; path = "View Controller/IdentificationView.h"; sourceTree = "<group>"; };
+		E8D9816E1B2F0A3700806835 /* IdentificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IdentificationView.m; path = "View Controller/IdentificationView.m"; sourceTree = "<group>"; };
+		E8D9816F1B2F0A3700806835 /* ListeCoursView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListeCoursView.h; path = "View Controller/ListeCoursView.h"; sourceTree = "<group>"; };
+		E8D981701B2F0A3700806835 /* ListeCoursView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListeCoursView.m; path = "View Controller/ListeCoursView.m"; sourceTree = "<group>"; };
+		E8D981711B2F0A3700806835 /* ListeQuestionnairesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListeQuestionnairesView.h; path = "View Controller/ListeQuestionnairesView.h"; sourceTree = "<group>"; };
+		E8D981721B2F0A3700806835 /* ListeQuestionnairesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListeQuestionnairesView.m; path = "View Controller/ListeQuestionnairesView.m"; sourceTree = "<group>"; };
+		E8D981731B2F0A3700806835 /* ListeQuestionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListeQuestionsView.h; path = "View Controller/ListeQuestionsView.h"; sourceTree = "<group>"; };
+		E8D981741B2F0A3700806835 /* ListeQuestionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListeQuestionsView.m; path = "View Controller/ListeQuestionsView.m"; sourceTree = "<group>"; };
+		E8FF6ACC1B45975A00FA9B7E /* ProfListeQuestionnairesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfListeQuestionnairesTableViewController.h; path = "View Controller/Prof View Controller/ProfListeQuestionnairesTableViewController.h"; sourceTree = "<group>"; };
+		E8FF6ACD1B45975A00FA9B7E /* ProfListeQuestionnairesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfListeQuestionnairesTableViewController.m; path = "View Controller/Prof View Controller/ProfListeQuestionnairesTableViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8D980D21B2F011800806835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8D980EE1B2F011800806835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E812C0831B44453800A96190 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				E812C0841B4445A000A96190 /* SpecificTableViewCell.h */,
+				E812C0851B4445A000A96190 /* SpecificTableViewCell.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		E823D43A1B42EB91005A4F84 /* View Controller Mode Repondre */ = {
+			isa = PBXGroup;
+			children = (
+				E8D981711B2F0A3700806835 /* ListeQuestionnairesView.h */,
+				E8D981721B2F0A3700806835 /* ListeQuestionnairesView.m */,
+				E8D981731B2F0A3700806835 /* ListeQuestionsView.h */,
+				E8D981741B2F0A3700806835 /* ListeQuestionsView.m */,
+				E83977D81B319F6E000F0F3F /* ListeReponsesView.h */,
+				E83977D91B319F6E000F0F3F /* ListeReponsesView.m */,
+				E83977DB1B31A0D7000F0F3F /* QuestionsReponsesView.h */,
+				E83977DC1B31A0D7000F0F3F /* QuestionsReponsesView.m */,
+			);
+			name = "View Controller Mode Repondre";
+			sourceTree = "<group>";
+		};
+		E823D43B1B42EBBB005A4F84 /* View Controller Mode Resultat */ = {
+			isa = PBXGroup;
+			children = (
+				E823D43C1B42EC04005A4F84 /* ListeQuestionnairesResultatTableViewController.h */,
+				E823D43D1B42EC04005A4F84 /* ListeQuestionnairesResultatTableViewController.m */,
+				E823D43F1B42F01A005A4F84 /* ResultatQuestionnaireTableViewController.h */,
+				E823D4401B42F01A005A4F84 /* ResultatQuestionnaireTableViewController.m */,
+			);
+			name = "View Controller Mode Resultat";
+			sourceTree = "<group>";
+		};
+		E828CC5C1B65225900B5281B /* View Controller System Question Reponse Eleve */ = {
+			isa = PBXGroup;
+			children = (
+				E828CC601B6526F300B5281B /* ListeQuestionsEleveView.h */,
+				E828CC611B6526F300B5281B /* ListeQuestionsEleveView.m */,
+				E859B19E1B666B5D003F4266 /* ListeReponsesQuestionEleveView.h */,
+				E859B19F1B666B5D003F4266 /* ListeReponsesQuestionEleveView.m */,
+			);
+			name = "View Controller System Question Reponse Eleve";
+			sourceTree = "<group>";
+		};
+		E8D980CC1B2F011800806835 = {
+			isa = PBXGroup;
+			children = (
+				E8D980D71B2F011800806835 /* Televoting */,
+				E8D980F41B2F011800806835 /* TelevotingTests */,
+				E8D980D61B2F011800806835 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8D980D61B2F011800806835 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8D980D51B2F011800806835 /* Televoting.app */,
+				E8D980F11B2F011800806835 /* TelevotingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8D980D71B2F011800806835 /* Televoting */ = {
+			isa = PBXGroup;
+			children = (
+				E8D980DC1B2F011800806835 /* AppDelegate.h */,
+				E8D980DD1B2F011800806835 /* AppDelegate.m */,
+				E8D981571B2F09F000806835 /* View Controller */,
+				E8D981561B2F09E400806835 /* Model */,
+				E8D981551B2F09CF00806835 /* Class base de données */,
+				E812C0831B44453800A96190 /* Class */,
+				E8D980E51B2F011800806835 /* Main.storyboard */,
+				E8D980E81B2F011800806835 /* Images.xcassets */,
+				E8D980EA1B2F011800806835 /* LaunchScreen.xib */,
+				E8D980DF1B2F011800806835 /* Televoting.xcdatamodeld */,
+				E8D980D81B2F011800806835 /* Supporting Files */,
+			);
+			path = Televoting;
+			sourceTree = "<group>";
+		};
+		E8D980D81B2F011800806835 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8D980D91B2F011800806835 /* Info.plist */,
+				E8D980DA1B2F011800806835 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8D980F41B2F011800806835 /* TelevotingTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8D980F71B2F011800806835 /* TelevotingTests.m */,
+				E8D980F51B2F011800806835 /* Supporting Files */,
+			);
+			path = TelevotingTests;
+			sourceTree = "<group>";
+		};
+		E8D980F51B2F011800806835 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8D980F61B2F011800806835 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8D981551B2F09CF00806835 /* Class base de données */ = {
+			isa = PBXGroup;
+			children = (
+				E8D981401B2F09C200806835 /* Cours.h */,
+				E8D981411B2F09C200806835 /* Cours.m */,
+				E8D981421B2F09C200806835 /* Participant.h */,
+				E8D981431B2F09C200806835 /* Participant.m */,
+				E8D981441B2F09C200806835 /* PropositionReponse.h */,
+				E8D981451B2F09C200806835 /* PropositionReponse.m */,
+				E8D981461B2F09C200806835 /* Question.h */,
+				E8D981471B2F09C200806835 /* Question.m */,
+				E8D981481B2F09C200806835 /* Questionnaire.h */,
+				E8D981491B2F09C200806835 /* Questionnaire.m */,
+				E8D9814A1B2F09C200806835 /* Reponse.h */,
+				E8D9814B1B2F09C200806835 /* Reponse.m */,
+				E8D9814C1B2F09C200806835 /* User.h */,
+				E8D9814D1B2F09C200806835 /* User.m */,
+				E8B6D0EC1B482F8B00C62CB3 /* Groupe.h */,
+				E8B6D0ED1B482F8B00C62CB3 /* Groupe.m */,
+				E89BF8F01B6379A800109251 /* Absence.h */,
+				E89BF8F11B6379A800109251 /* Absence.m */,
+				E89BF8F31B637A1100109251 /* Retard.h */,
+				E89BF8F41B637A1100109251 /* Retard.m */,
+				E828CC561B6520D100B5281B /* question_eleve.h */,
+				E828CC571B6520D100B5281B /* question_eleve.m */,
+				E828CC591B65215B00B5281B /* reponse_question_eleve.h */,
+				E828CC5A1B65215B00B5281B /* reponse_question_eleve.m */,
+			);
+			name = "Class base de données";
+			sourceTree = "<group>";
+		};
+		E8D981561B2F09E400806835 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E8D981581B2F0A1B00806835 /* CoursModel.h */,
+				E8D981591B2F0A1B00806835 /* CoursModel.m */,
+				E8D9815A1B2F0A1B00806835 /* ParticipantModel.h */,
+				E8D9815B1B2F0A1B00806835 /* ParticipantModel.m */,
+				E8D9815C1B2F0A1B00806835 /* PropositionReponseModel.h */,
+				E8D9815D1B2F0A1B00806835 /* PropositionReponseModel.m */,
+				E8D9815E1B2F0A1B00806835 /* QuestionModel.h */,
+				E8D9815F1B2F0A1B00806835 /* QuestionModel.m */,
+				E8D981601B2F0A1B00806835 /* QuestionnaireModel.h */,
+				E8D981611B2F0A1B00806835 /* QuestionnaireModel.m */,
+				E8D981621B2F0A1B00806835 /* ReponseModel.h */,
+				E8D981631B2F0A1B00806835 /* ReponseModel.m */,
+				E8D981641B2F0A1B00806835 /* UserModel.h */,
+				E8D981651B2F0A1B00806835 /* UserModel.m */,
+				E8049BB21B430F8D00F07EB5 /* ResultatModel.h */,
+				E8049BB31B430F8D00F07EB5 /* ResultatModel.m */,
+				E8B6D0EF1B4830A800C62CB3 /* DataQuestionnaireModel.h */,
+				E8B6D0F01B4830A800C62CB3 /* DataQuestionnaireModel.m */,
+				E843D2451B491FDE00C19B64 /* ApercuQuestionnaireModel.h */,
+				E843D2461B491FDE00C19B64 /* ApercuQuestionnaireModel.m */,
+				E843D2481B4921CB00C19B64 /* GroupeModel.h */,
+				E843D2491B4921CC00C19B64 /* GroupeModel.m */,
+				E889143C1B53FA5B00D9AA53 /* StatistiquesModel.h */,
+				E889143D1B53FA5B00D9AA53 /* StatistiquesModel.m */,
+				E89BF8F61B637A6E00109251 /* AbsenceModel.h */,
+				E89BF8F71B637A6E00109251 /* AbsenceModel.m */,
+				E89BF8F91B637D1B00109251 /* RetardModel.h */,
+				E89BF8FA1B637D1B00109251 /* RetardModel.m */,
+				E828CC5D1B6522FE00B5281B /* QuestionEleveModel.h */,
+				E828CC5E1B6522FE00B5281B /* QuestionEleveModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E8D981571B2F09F000806835 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E8D9816D1B2F0A3700806835 /* IdentificationView.h */,
+				E8D9816E1B2F0A3700806835 /* IdentificationView.m */,
+				E8D9816F1B2F0A3700806835 /* ListeCoursView.h */,
+				E8D981701B2F0A3700806835 /* ListeCoursView.m */,
+				E823D43A1B42EB91005A4F84 /* View Controller Mode Repondre */,
+				E823D43B1B42EBBB005A4F84 /* View Controller Mode Resultat */,
+				E8FF6ACF1B45976E00FA9B7E /* Prof View Controller */,
+				E828CC5C1B65225900B5281B /* View Controller System Question Reponse Eleve */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		E8FF6ACF1B45976E00FA9B7E /* Prof View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E8FF6ACC1B45975A00FA9B7E /* ProfListeQuestionnairesTableViewController.h */,
+				E8FF6ACD1B45975A00FA9B7E /* ProfListeQuestionnairesTableViewController.m */,
+				E8D078211B46E78400918140 /* ProfDonneesGeneralesQuestionnaireTableViewController.h */,
+				E8D078221B46E78400918140 /* ProfDonneesGeneralesQuestionnaireTableViewController.m */,
+				E84B058A1B47E1000047570A /* ProfVisualisationQuestionnaireTableViewController.h */,
+				E84B058B1B47E1000047570A /* ProfVisualisationQuestionnaireTableViewController.m */,
+				E843D24B1B497E1400C19B64 /* ProfListeQuestionsTableViewController.h */,
+				E843D24C1B497E1400C19B64 /* ProfListeQuestionsTableViewController.m */,
+				E843D24E1B49849500C19B64 /* ProfListeReponsesTableViewController.h */,
+				E843D24F1B49849500C19B64 /* ProfListeReponsesTableViewController.m */,
+				E865AB771B4ADCE9006DB75A /* ProfListeElevesTableViewController.h */,
+				E865AB781B4ADCE9006DB75A /* ProfListeElevesTableViewController.m */,
+				E866F4CB1B50045C003E51D0 /* ProfStatistiquesParticipantsTableViewController.h */,
+				E866F4CC1B50045C003E51D0 /* ProfStatistiquesParticipantsTableViewController.m */,
+				E866F4CE1B5004D6003E51D0 /* ProfStatistiquesQuestionsTableViewController.h */,
+				E866F4CF1B5004D6003E51D0 /* ProfStatistiquesQuestionsTableViewController.m */,
+				E866F4D11B500DD0003E51D0 /* ProfStatistiquesQuestionReponsesTableViewController.h */,
+				E866F4D21B500DD0003E51D0 /* ProfStatistiquesQuestionReponsesTableViewController.m */,
+			);
+			name = "Prof View Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8D980D41B2F011800806835 /* Televoting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8D980FB1B2F011800806835 /* Build configuration list for PBXNativeTarget "Televoting" */;
+			buildPhases = (
+				E8D980D11B2F011800806835 /* Sources */,
+				E8D980D21B2F011800806835 /* Frameworks */,
+				E8D980D31B2F011800806835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Televoting;
+			productName = Televoting;
+			productReference = E8D980D51B2F011800806835 /* Televoting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8D980F01B2F011800806835 /* TelevotingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8D980FE1B2F011800806835 /* Build configuration list for PBXNativeTarget "TelevotingTests" */;
+			buildPhases = (
+				E8D980ED1B2F011800806835 /* Sources */,
+				E8D980EE1B2F011800806835 /* Frameworks */,
+				E8D980EF1B2F011800806835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8D980F31B2F011800806835 /* PBXTargetDependency */,
+			);
+			name = TelevotingTests;
+			productName = TelevotingTests;
+			productReference = E8D980F11B2F011800806835 /* TelevotingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8D980CD1B2F011800806835 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Thomas Neyraut";
+				TargetAttributes = {
+					E8D980D41B2F011800806835 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					E8D980F01B2F011800806835 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = E8D980D41B2F011800806835;
+					};
+				};
+			};
+			buildConfigurationList = E8D980D01B2F011800806835 /* Build configuration list for PBXProject "Televoting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8D980CC1B2F011800806835;
+			productRefGroup = E8D980D61B2F011800806835 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8D980D41B2F011800806835 /* Televoting */,
+				E8D980F01B2F011800806835 /* TelevotingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8D980D31B2F011800806835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D980E71B2F011800806835 /* Main.storyboard in Resources */,
+				E8D980EC1B2F011800806835 /* LaunchScreen.xib in Resources */,
+				E8D980E91B2F011800806835 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8D980EF1B2F011800806835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8D980D11B2F011800806835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E843D24D1B497E1400C19B64 /* ProfListeQuestionsTableViewController.m in Sources */,
+				E8FF6ACE1B45975A00FA9B7E /* ProfListeQuestionnairesTableViewController.m in Sources */,
+				E89BF8F51B637A1100109251 /* Retard.m in Sources */,
+				E823D4411B42F01A005A4F84 /* ResultatQuestionnaireTableViewController.m in Sources */,
+				E8D981541B2F09C200806835 /* User.m in Sources */,
+				E8D980DE1B2F011800806835 /* AppDelegate.m in Sources */,
+				E865AB791B4ADCE9006DB75A /* ProfListeElevesTableViewController.m in Sources */,
+				E84B058C1B47E1000047570A /* ProfVisualisationQuestionnaireTableViewController.m in Sources */,
+				E8B6D0F11B4830A800C62CB3 /* DataQuestionnaireModel.m in Sources */,
+				E8D981521B2F09C200806835 /* Questionnaire.m in Sources */,
+				E828CC5B1B65215B00B5281B /* reponse_question_eleve.m in Sources */,
+				E8D981501B2F09C200806835 /* PropositionReponse.m in Sources */,
+				E8D980DB1B2F011800806835 /* main.m in Sources */,
+				E843D24A1B4921CC00C19B64 /* GroupeModel.m in Sources */,
+				E8D9817A1B2F0A3700806835 /* ListeCoursView.m in Sources */,
+				E866F4CD1B50045C003E51D0 /* ProfStatistiquesParticipantsTableViewController.m in Sources */,
+				E8049BB41B430F8D00F07EB5 /* ResultatModel.m in Sources */,
+				E8D9816C1B2F0A1B00806835 /* UserModel.m in Sources */,
+				E83977DD1B31A0D7000F0F3F /* QuestionsReponsesView.m in Sources */,
+				E8D981691B2F0A1B00806835 /* QuestionModel.m in Sources */,
+				E812C0861B4445A000A96190 /* SpecificTableViewCell.m in Sources */,
+				E8D9816B1B2F0A1B00806835 /* ReponseModel.m in Sources */,
+				E83977DA1B319F6E000F0F3F /* ListeReponsesView.m in Sources */,
+				E89BF8F21B6379A800109251 /* Absence.m in Sources */,
+				E843D2501B49849500C19B64 /* ProfListeReponsesTableViewController.m in Sources */,
+				E8D981661B2F0A1B00806835 /* CoursModel.m in Sources */,
+				E8D9817B1B2F0A3700806835 /* ListeQuestionnairesView.m in Sources */,
+				E843D2471B491FDE00C19B64 /* ApercuQuestionnaireModel.m in Sources */,
+				E828CC621B6526F300B5281B /* ListeQuestionsEleveView.m in Sources */,
+				E8D9814F1B2F09C200806835 /* Participant.m in Sources */,
+				E8B6D0EE1B482F8B00C62CB3 /* Groupe.m in Sources */,
+				E8D981511B2F09C200806835 /* Question.m in Sources */,
+				E889143E1B53FA5B00D9AA53 /* StatistiquesModel.m in Sources */,
+				E8D9814E1B2F09C200806835 /* Cours.m in Sources */,
+				E8D981791B2F0A3700806835 /* IdentificationView.m in Sources */,
+				E866F4D01B5004D6003E51D0 /* ProfStatistiquesQuestionsTableViewController.m in Sources */,
+				E859B1A01B666B5D003F4266 /* ListeReponsesQuestionEleveView.m in Sources */,
+				E823D43E1B42EC04005A4F84 /* ListeQuestionnairesResultatTableViewController.m in Sources */,
+				E866F4D31B500DD0003E51D0 /* ProfStatistiquesQuestionReponsesTableViewController.m in Sources */,
+				E8D981671B2F0A1B00806835 /* ParticipantModel.m in Sources */,
+				E8D078231B46E78400918140 /* ProfDonneesGeneralesQuestionnaireTableViewController.m in Sources */,
+				E8D980E11B2F011800806835 /* Televoting.xcdatamodeld in Sources */,
+				E8D9816A1B2F0A1B00806835 /* QuestionnaireModel.m in Sources */,
+				E828CC5F1B6522FE00B5281B /* QuestionEleveModel.m in Sources */,
+				E8D981531B2F09C200806835 /* Reponse.m in Sources */,
+				E89BF8FB1B637D1B00109251 /* RetardModel.m in Sources */,
+				E8D9817C1B2F0A3700806835 /* ListeQuestionsView.m in Sources */,
+				E828CC581B6520D100B5281B /* question_eleve.m in Sources */,
+				E8D981681B2F0A1B00806835 /* PropositionReponseModel.m in Sources */,
+				E89BF8F81B637A6E00109251 /* AbsenceModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8D980ED1B2F011800806835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D980F81B2F011800806835 /* TelevotingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8D980F31B2F011800806835 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8D980D41B2F011800806835 /* Televoting */;
+			targetProxy = E8D980F21B2F011800806835 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8D980E51B2F011800806835 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8D980E61B2F011800806835 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8D980EA1B2F011800806835 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8D980EB1B2F011800806835 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8D980F91B2F011800806835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8D980FA1B2F011800806835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8D980FC1B2F011800806835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Televoting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ThomasNeyraut.ios.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8D980FD1B2F011800806835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Televoting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ThomasNeyraut.ios.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E8D980FF1B2F011800806835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TelevotingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ThomasNeyraut.ios.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Televoting.app/Televoting";
+			};
+			name = Debug;
+		};
+		E8D981001B2F011800806835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TelevotingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ThomasNeyraut.ios.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Televoting.app/Televoting";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8D980D01B2F011800806835 /* Build configuration list for PBXProject "Televoting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8D980F91B2F011800806835 /* Debug */,
+				E8D980FA1B2F011800806835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8D980FB1B2F011800806835 /* Build configuration list for PBXNativeTarget "Televoting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8D980FC1B2F011800806835 /* Debug */,
+				E8D980FD1B2F011800806835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8D980FE1B2F011800806835 /* Build configuration list for PBXNativeTarget "TelevotingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8D980FF1B2F011800806835 /* Debug */,
+				E8D981001B2F011800806835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E8D980DF1B2F011800806835 /* Televoting.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E8D980E01B2F011800806835 /* Televoting.xcdatamodel */,
+			);
+			currentVersion = E8D980E01B2F011800806835 /* Televoting.xcdatamodel */;
+			path = Televoting.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E8D980CD1B2F011800806835 /* Project object */;
+}
